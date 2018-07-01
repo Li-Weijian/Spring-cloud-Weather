@@ -6,4 +6,5 @@ public interface WeatherDataService {
 
     WeatherResponse getWeatherDataByCityId(String cityId);
     WeatherResponse getWeatherDataByCityName(String cityName);
+    void syncDataByCityId(String cityId);
 }

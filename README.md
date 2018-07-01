@@ -26,6 +26,16 @@
 * Spring Cloud Config Client Finchley.M2
 * Spring Cloud Starter Netflix Hystrix Finchley.M2
 
+
+
+## API
+
+城市列表：http://mobile.weather.com.cn/js/citylist.xml
+
+根据城市id查询天气： http://wthrcdn.etouch.cn/weather_mini?citykey=
+
+根据城市名称查询天气： http://wthrcdn.etouch.cn/weather_mini?city=深圳
+
 ## 示例源码
 
 以下为教程中所涉及的示例源码：
