@@ -11,7 +11,7 @@ import java.util.List;
  * @author bejson.com (i@bejson.com)
  * @website http://www.bejson.com/java2pojo/
  */
-public class Data implements Serializable {
+public class Weather implements Serializable {
 
     private Yesterday yesterday;
     private String city;

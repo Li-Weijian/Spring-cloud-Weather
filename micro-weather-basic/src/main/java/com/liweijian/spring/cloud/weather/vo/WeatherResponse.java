@@ -13,15 +13,17 @@ import java.io.Serializable;
  */
 public class WeatherResponse implements Serializable {
 
-    private Data data;
+    private Weather data;
     private int status;
     private String desc;
-    public void setData(Data data) {
-         this.data = data;
-     }
-     public Data getData() {
-         return data;
-     }
+
+    public Weather getData() {
+        return data;
+    }
+
+    public void setData(Weather data) {
+        this.data = data;
+    }
 
     public void setStatus(int status) {
          this.status = status;
